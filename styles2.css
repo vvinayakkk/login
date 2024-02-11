@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20231027/pngtree-hexagonal-abstract-background-with-a-black-textured-surface-image_13704307.png') center/cover no-repeat; /* Set background image for entire page */
+  }
+  
+  .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Make the background semi-transparent */
+  }
+  
+  .login-container {
+    width: 360px;
+    background-color: rgba(248, 249, 250, 0.8); /* Make the login container semi-transparent */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .login-form {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .or-option {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+  }
+  
+  .external-login-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .facebook-login-button,
+  .google-login-button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .facebook-login-button {
+    background-color:  #101114d6;
+    width: 100%;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: center;
+  }
+  
+  .facebook-login-button::before {
+    content: "f";
+    font-weight: bold;
+    background-color: #1042ae; /* Facebook blue color */
+    color: white; /* Change color to white */
+    font-size: 28px; /* Adjust font size as needed */
+    width: 50px; /* Set width and height to create a circular shape */
+    height: 40px; /* Set width and height to create a circular shape */
+    border-radius: 20%; /* Make the shape circular */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-right: 1px; /* Adjust spacing between the "f" symbol and text */
+  }
+  
+
+  .google-login-button {
+    background-color:  #101114d6;
+    width: 100%;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: center; /* Center text within the button */
+  }
+  
+  .google-login-button::before {
+    content: "G";
+    font-weight: bold;
+    background: linear-gradient(to right, #4285F4, #d42e1e, #FBBC05, #34A853); /* Google color gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 8px;
+    font-size: x-large;
+  }
+  
+  
+  
+  
+  .facebook-login-button:hover,
+  .google-login-button:hover {
+    opacity: 0.8;
+  }
+  
+/* styles2.css | http://127.0.0.1:5500/styles2.css */
+
+h1 {
+    /* color: #343a40; */
+    color: #000;
+  }
+  
+  label {
+    /* color: white; */
+    color: #1d1b1b;
+  }
+  
+  button {
+    /* background-color: #007bff; */
+    background-color: #123a65;
+  }
+  
+  .signup-link {
+    /* color: white; */
+    color: #191414;
+  }
+  
+  input {
+    /* border: 1px solid #ced4da; */
+    border: 2px solid #232528;
+  }
+  
+  .login-container {
+    /* background-color: #f8f9fa; */
+    background-color: #a7adb4;
+  }
+  
+
+/* styles2.css | http://127.0.0.1:5500/styles2.css */
+
+.or-option {
+  /* color: white; */
+  color: #1d1b1b;
+}
+
+.signup-link {
+  /* color: #191414; */
+  color: #000;
+}
+
+/* styles2.css | http://127.0.0.1:5500/styles2.css?_cacheOverride=1707629539792 */
+
+.or-option {
+  /* color: white; */
+  color: #1d1a1a;
+}
